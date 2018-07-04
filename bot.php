@@ -1,8 +1,8 @@
 <?php 
 
     // The bot client instance is a handler of the Messaging API.
-    $httpClient = new \LINE\LINEBot\HTTPClient\CurlHTTPClient('QZn2nt98XHYYNlCtormkSK74XnGLXfGbuTzYNKaE7dDyp03Y//Une6U+qxfVVVMXjGIM4Zp0EIkybpSbl1z6Dwri54Qgtrq4qaRte+x/j23jUWoGen7pNmOx3Zsh+r395kNHYZ3NW5A6ZogX7YpNKgdB04t89/1O/w1cDnyilFU=');
-    $bot = new \LINE\LINEBot($httpClient, ['channelSecret' => '9888fe460c0829ae8ecb181c6cf9ad3a']);
+    $httpClient = new \src\LINEBot\HTTPClient\CurlHTTPClient('QZn2nt98XHYYNlCtormkSK74XnGLXfGbuTzYNKaE7dDyp03Y//Une6U+qxfVVVMXjGIM4Zp0EIkybpSbl1z6Dwri54Qgtrq4qaRte+x/j23jUWoGen7pNmOx3Zsh+r395kNHYZ3NW5A6ZogX7YpNKgdB04t89/1O/w1cDnyilFU=');
+    $bot = new \src\LINEBot($httpClient, ['channelSecret' => '9888fe460c0829ae8ecb181c6cf9ad3a']);
 
     /*
      * You can call an API through the bot client instance.
